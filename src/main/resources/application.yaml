@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Currency Converter
+
+currency:
+  api:
+    key: ${API_KEY}
+
+    url: https://api.freecurrencyapi.com/v1/latest
